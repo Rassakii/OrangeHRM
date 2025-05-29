@@ -38,11 +38,8 @@ namespace OrangeHRM
         [Then("the employee is added succesfully")]
         public void ThenTheEmployeeIsAddedSuccesfully()
         {
-            
             var user = _scenarioContext.Get<UserProfile>("user");
-            _pimpage.ClickEmployeeList();
-            Thread.Sleep(10);
-            Assert.IsTrue(_pimpage.DisplayEmployee(user));
+            Assert.IsTrue(_pimpage.IsNewlyRegisteredEmployeeDisplayed(user));
         }
     }
 }

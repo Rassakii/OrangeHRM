@@ -122,7 +122,7 @@ this.ScenarioInitialize(scenarioInfo);
             {
                 await this.ScenarioStartAsync();
 #line 7
-  await testRunner.GivenAsync("OrangeHrm is loaded succesfully", ((string)(null)), ((global::Reqnroll.Table)(null)), "Given ");
+ await testRunner.GivenAsync("OrangeHrm is loaded succesfully", ((string)(null)), ((global::Reqnroll.Table)(null)), "Given ");
 #line hidden
 #line 8
  await testRunner.WhenAsync("Inserts the username and password appropriately", ((string)(null)), ((global::Reqnroll.Table)(null)), "When ");
