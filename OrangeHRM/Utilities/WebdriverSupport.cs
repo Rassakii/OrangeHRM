@@ -37,6 +37,7 @@ namespace OrangeHRM.Utilities
                 case "chrome":
                     ChromeOptions chromeOptions = new ChromeOptions();
                     _driver = new ChromeDriver(chromeOptions);
+                    chromeOptions.AddArgument("--lang=en");
                     break;
                 case "edge":
                     EdgeOptions edgeOptions = new EdgeOptions();

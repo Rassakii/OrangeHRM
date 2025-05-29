@@ -1,7 +1,5 @@
 ﻿Feature: Login
 
-A short summary of the feature
-
 @tag1
 Scenario: User can sign in succesfully
 	Given OrangeHrm is loaded succesfully
