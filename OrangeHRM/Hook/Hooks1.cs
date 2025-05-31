@@ -5,7 +5,7 @@ using OrangeHRM.Utilities;
 using Reqnroll;
 using Reqnroll.BoDi;
 using OrangeHRM.Configration;
-
+[assembly:Parallelizable(ParallelScope.Fixtures)]
 namespace OrangeHRM.Hook
 {
     [Binding]
